@@ -1,6 +1,0 @@
-make:
-	nasm pratham.asm -f elf64 -o pratham.o
-	gcc -o pratham -lc pratham.o -no-pie
-run: 
-	./pratham
-
